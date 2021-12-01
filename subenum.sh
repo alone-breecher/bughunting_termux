@@ -48,7 +48,7 @@ then
     
  #sublister
    
-    if [ -f /data/data/com.termux/files/home/bug/Sublist3r ]
+    if [ -f /data/data/com.termux/files/home/bug/Sublist3r/sublist3r.py ]
 then
         echo "${magenta} [+] Running sublist3r for subdomain enumeration${reset}"
         python3 /data/data/com.termux/files/home/bug/Sublist3r/sublist3r.py -d $DOM -t 3 -e bing --output /data/data/com.termux/files/home/bug_result/$DOM/Subdomains/sublister.txt
